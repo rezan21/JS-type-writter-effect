@@ -42,6 +42,10 @@ h2{
 
 }
 
+.txt-type > .txt {
+  border-right: 0.2rem solid #777;
+}
+
 @media(max-width: 1200px){
   h1
     {  color: red;

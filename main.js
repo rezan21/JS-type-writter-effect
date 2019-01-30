@@ -22,11 +22,11 @@ const fullTxt = this.words[current];
 // check if deleting?
 if(this.isDeleting){
   //remove char
-  this.txt = fullTxt.substring(0, this.txt.length - 1)
+  this.txt = fullTxt.substring(0, this.txt.length - 1);
 
 } else {
   //add char
-  this.txt = fullTxt.substring(0, this.txt.length + 1)
+  this.txt = fullTxt.substring(0, this.txt.length + 1);
 }
 
 // insert txt into element
